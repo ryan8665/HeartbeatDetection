@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackground">
+    <PreferenceCategory android:title="@string/sms_setting_head">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="smsSetting"
+            android:summary="@string/sms_setting_sub"
+            android:title="@string/sms_setting_title" />
+
+        <EditTextPreference
+            android:dialogTitle="Enter phone number"
+            android:key="phoneNumber"
+            android:numeric="integer"
+            android:summary="@string/phone_setting_sub"
+            android:title="@string/phone_setting_head" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general_setting_head">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="location"
+            android:summary="@string/gps_setting_sub"
+            android:title="@string/gps_setting_head" />
+
+        <EditTextPreference
+            android:dialogTitle="Enter tachycardia range number"
+            android:key="tachycardia"
+            android:numeric="integer"
+            android:summary="@string/tachycardia_setting_sub"
+            android:title="@string/tachycardia_setting_head" />
+
+        <EditTextPreference
+            android:dialogTitle="Enter bradycardia range number"
+            android:key="bradycardia"
+            android:numeric="integer"
+            android:summary="@string/bradycardia_setting_sub"
+            android:title="@string/bradycardia_setting_head" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/bluetooth_setting_title">
+        <EditTextPreference
+            android:dialogTitle="Enter the bluetooth name"
+            android:key="bluetooth"
+            android:summary="@string/bluetooth_setting_sub"
+            android:title="@string/bluetooth_setting_head" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

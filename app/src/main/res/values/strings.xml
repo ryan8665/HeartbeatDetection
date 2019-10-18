@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Heartbeat Detection</string>
+    <string name="title_home">Home</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_terminal">Terminal</string>
+    <string name="title_about">About</string>
+    <string name="sms_setting_title">Send SMS</string>
+    <string name="sms_setting_sub">Send sms to defined number</string>
+    <string name="sms_setting_head">SMS SETTING</string>
+    <string name="general_setting_head">GENERAL SETTING</string>
+
+    <string name="phone_setting_sub">App sends sms to this number</string>
+    <string name="phone_setting_head">Phone Number</string>
+
+    <string name="tachycardia_setting_sub">Please enter the values for Tachycardia range</string>
+    <string name="tachycardia_setting_head">Tachycardia Range</string>
+
+    <string name="bradycardia_setting_sub">Please enter the values for Bradycardia range</string>
+    <string name="bradycardia_setting_head">Bradycardia Range</string>
+
+    <string name="bluetooth_setting_title">BLUETOOTH SETTING</string>
+    <string name="bluetooth_setting_sub">Please enter the bluetooth name</string>
+    <string name="bluetooth_setting_head">Bluetooth Name</string>
+
+    <string name="gps_setting_sub">App sends location via sms</string>
+    <string name="gps_setting_head">Location</string>
+
+    <string name="normal">نرمال</string>
+    <string name="bradycardia">برادی کاردی یا کم بودن ضربان قلب معمولا نشانه بیماری جدی است. اقدامات زیر را انجام دهید.
+اگر احساس ضعف و بی حالی شدید دارید حتما به اورژانس زنگ بزنید. ممکن است دچار حمله قلبی شده اید.
+سعی کنید هیچ فعالیتی انجام ندهید.
+دراز بکشید.
+بهتر است پاها بالاتر قرار گیرد.
+اگر فکر میکنید فقط یک faint ساده است بهتر است نیم ساعت در وضعیت خوابیده بمانید.</string>
+    <string name="tachycardia">در برخورد با تاکی کاردی(افزایش ضربان قلب) اقدامات زیر را انجام دهید.
+۱ اگر در حال انجام کاری هستید آن را متوقف کرده استراحت کنید.
+۲ اگر سابقه دارید وتاکی کاردی  فوق بطنی مطرح است از مانورهای واگ استفاده کنید. مثل:
+فشار و ماساژ روی کاسه چشم.
+ماساژ یک طرفه ضربان گردن همان شریان کاروتید.
+تنفس خود را نگه دارید و زور بزنید.
+صورت خودرا برای چند ثانیه در آب یخ قرار دهید.
+۳ کافئین مصرف نکنید.
+۴ الکل مصرف نکنید.
+۵ سیگار نکشید
+۶ مواد غذایی منیزیم دار استفاده کنید. مثل حبوبات و آجیل....
+۷ پتاسیم مصرفی را افزایش دهید. میوه و سبزیجات زیاد مصرف کنید.</string>
+
+    <string name="bradycardia_sms">برادی کاردی رخ داده است</string>
+    <string name="tachycardia_sms">تاکی کاردی رخ داده است</string>
+    <string name="about">این اپلیکیشن جهت پایش ضربان قلب در بیماران طراحی شده است. کافی است دست خود را بروی حسگر ضربان قلب بر روی دستگاه مربوطه قرار دهید. پس از مشخص شدن نرخ ضربان قلب این عدد توسط بلوتوث دستگاه به اندروید اپلیکیشن منتقل می شود و با اعداد مربوط به بازه نرمال سنجیده می شود. در صورتی که ضربان قلب بیش از حد نرمال باشد (بالای 120 ضربان در دقیقه)؛ اپلیکیشن آن را تحت عنوان تاکی کاردی شناسایی کرده و اقدامات آموزشی اولیه در خصوص مراقبت از این وضعیت را نمایش می دهد. در صورتی که ضربان پایین تر از حد نرمال باشد (کمتر از 60 ضربان در دقیقه)؛ نیز اپلیکیشن وضعیت موجود را برادی کاری تلقی کرده و اقدامات آموزشی مربوط به این حالت را نمایش می دهد .  در هر دو صورت نیز یک پیامک به پزشک و یا خانواده نیز ارسال می شود.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="axisY">bpm/min</string>
+    <string name="sendSMS">Send SMS</string>
+
+</resources>
